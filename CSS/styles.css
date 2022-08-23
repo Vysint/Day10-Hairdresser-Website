@@ -84,3 +84,33 @@ section{
     color: var(--black);
     display: none;
 }
+/* header end */
+
+/* home */
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/home-bg2.png);
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content span{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    padding-bottom: .5rem;
+    color:var(--primary-color);
+    text-transform: uppercase;
+}
+.home .content h3{
+    color: var(--black);
+    font-size: 7rem;
+    line-height: 8rem;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+/* home end */
