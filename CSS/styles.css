@@ -587,3 +587,33 @@ section{
 }
 /* footer section end */
 
+
+
+/* Media Queries */
+
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    .header .navbar a{
+        font-size: 1.7rem;
+    }
+    section{
+        padding: 3rem 2rem;
+    }
+    .about{
+        background-image: none;
+    }
+    .about .row .image{
+        display: none;
+    }
+    .about .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricing .box-container .box{
+        height: 60rem;
+    }
+}
+
