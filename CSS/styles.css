@@ -6,7 +6,7 @@
     --white:#fff;
     --light-bg:#f3efec;
     --dark-bg:rgba(0,0,0,0.7);
-    --border:1rem solid #aaa;
+    --border:1px solid #aaa;
     --box-shadow:0 0.5rem 1rem rgba(0,0,0,0.1);
 }
 *{
@@ -484,8 +484,38 @@ section{
 .visit .row .image img{
     width: 100%;
 }
-
-
-
+.visit .heading{
+    color: var(--main-color);
+}
 /* Blogs & visit end */
+
+/* reviews section */
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.review .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.review .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--black);
+    padding: 2rem 0;
+}
+.review .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
+.review .box-container .box .stars i{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+/* reviews section end */
 
