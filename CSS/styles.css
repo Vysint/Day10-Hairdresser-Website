@@ -293,6 +293,11 @@ section{
     z-index: 1;
     background: var(--primary-color);
 }
+.pricing .box-container .box:hover{
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    transform: scale(0.98);
+}
 .pricing .box-container .box::before,
 .pricing .box-container .box::after{
     content: '';
