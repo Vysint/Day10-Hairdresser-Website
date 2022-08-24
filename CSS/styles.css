@@ -224,3 +224,45 @@ section{
 .services .box-container .box:hover .content{
     display: flex;
 }
+
+/* services end */
+
+/* styles section */
+.styles{
+    background: var(--light-bg);
+}
+.styles .box-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1.5rem;
+}
+.styles .box-container .box{
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+.styles .box-container .box:hover{
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    transform: scale(0.95);
+}
+.styles .box-container .box .image{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.styles .box-container .box .image img{
+    object-fit: cover;
+}
+.styles .box-container .box .content h3{
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    text-align: center;
+}
+.styles .box-container .box .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #444;
+    padding: 1rem 2rem;
+    text-align: center;
+}
