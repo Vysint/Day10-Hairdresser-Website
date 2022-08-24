@@ -37,6 +37,14 @@
 section{
     padding: 5rem 7%;
 }
+.heading{
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-size: 4rem;
+}
 
 /* header */
 .header{
@@ -114,3 +122,60 @@ section{
 }
 
 /* home end */
+
+/* About us */
+.about{
+    background-image: url(../images/about-left.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.about .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:2rem;
+}
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+.about .row .content .icons-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.about .row .content .icons-container .icons{
+    text-align: center;
+    background: var(--light-bg);
+    padding: 3rem 2rem;
+    height: 15rem;
+    width: 15rem;
+
+}
+.icons:hover{
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.about .row .content .icons-container .icons img{
+    height: 5rem;
+}
+.about .row .content .icons-container .icons h3{
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    color: #444;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+/* About us end*/
